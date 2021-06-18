@@ -1,0 +1,5 @@
+﻿  Hangman Game.cpp
+C:\Users\mouss\source\repos\Hangman Game\Hangman Game\Hangman Game.cpp(21,6): warning C4101: 'num': unreferenced local variable
+C:\Users\mouss\source\repos\Hangman Game\Hangman Game\Hangman Game.cpp(143,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\mouss\source\repos\Hangman Game\Hangman Game\Hangman Game.cpp(242,20): warning C4018: '<': signed/unsigned mismatch
+  Hangman Game.vcxproj -> C:\Users\mouss\source\repos\Hangman Game\Debug\Hangman Game.exe
