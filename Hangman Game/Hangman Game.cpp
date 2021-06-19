@@ -39,7 +39,6 @@ int main() {
 
 	bool help = false;
 	
-
 	while (live > 0)
 	{
 		win = true;
@@ -53,7 +52,7 @@ int main() {
 
 		if (win == true)
 			break;
-		cout << "\n\nIf you want wo know the first letter write 'help' [Your lives will decrease!]" << endl;
+		cout << "\n\nIf you want to know the first letter write 'help' [Your lives will decrease!]" << endl;
 		cout << "\n\nLetters guesses: " << guessedLetters << endl;
 		cout << "\n\nEnter a letter: ";
 		cin >> letter;
@@ -77,7 +76,7 @@ int main() {
 			else
 			{
 				system("cls");
-				for (;;) //Infinity loop (like: while(true) ..)
+				for (;;) //Infinity loop (like: while(true){} ..)
 				{
 					cout << "You are CHEATING!" << endl;
 				}
@@ -103,7 +102,7 @@ int main() {
 		cout << "\n\n\n\t\t\t >>>You Lose!<<<\n\n";
 		cout << "The word was: " << word << endl;
 	}
-	if (live > 0) //If we complete the word rightly
+	if (live > 0) //If we complete the word correctly
 	{
 		cout << "\n\n\n\t\t\t >>>You WIN!<<<\n\n";
 		cout << "The word was: " << word << endl;
