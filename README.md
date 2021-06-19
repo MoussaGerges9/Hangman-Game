@@ -1,4 +1,5 @@
-#Hangman game
+# Hangman game
+
 Hangman game using C++ console. If you don't know the game, you should guess the word by entering a certain number of letters before hanging the man. I added more features like:
 - Different levels.
 - Anti cheating when you enter more than two letters.
